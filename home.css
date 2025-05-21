@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #0b1a44; /* Dark navy blue */
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #0b1a44;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #1e90ff; /* Light blue hover */
+}
+
+.searchicon img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+/* ===== HERO SECTION STYLES ===== */
+.hero {
+  background-image: url('HomeBg.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 80px); /* Adjust height based on navbar */
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  color: white;
+}
+
+.hero-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background-color: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0f78d1;
+}
+
+/* ===== ABOUT US SECTION ===== */
+.about {
+  background-color: #0b1a44; /* Match body background */
+  color: white;
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ===== APPLY NOW SECTION ===== */
+.apply {
+  background-color: #112b55;
+  color: white;
+  padding: 80px 50px;
+}
+
+.apply-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #0b1a44;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.apply-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.apply-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.apply-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.apply-form .form-group {
+  margin-bottom: 20px;
+}
+
+.apply-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.apply-form input,
+.apply-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #1e3a70;
+  color: white;
+}
+
+.apply-form input::placeholder,
+.apply-form textarea::placeholder {
+  color: #b0c7e4;
+}
+
+.apply-form input:focus,
+.apply-form textarea:focus {
+  outline: none;
+  background-color: #264b87;
+}
+
+.apply-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-form button:hover {
+  background-color: #0f78d1;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #08152e;
+  color: white;
+  padding: 40px 50px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+.footer-logo h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #1e90ff;
+}
+
+.footer-contact p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px solid #1e90ff;
+  padding-top: 15px;
+}

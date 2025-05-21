@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0B0F2B;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0B0F2B;
+    padding: 15px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.nav-links a.active {
+    background-color: #1e32fa;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+.searchicon img {
+    height: 25px;
+}
+
+/* Main content */
+main.trainees {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 30px;
+    gap: 30px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 250px;
+    background-color: transparent;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.team-member .role {
+    background-color: #1e32fa;
+    padding: 8px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.team-member h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    background-color: #071026;
+    color: white;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-columns div {
+    text-align: left;
+}
+
+.footer-columns p {
+    margin-bottom: 10px;
+}
+
+.footer-columns a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-columns a:hover {
+    color: #1e32fa;
+}

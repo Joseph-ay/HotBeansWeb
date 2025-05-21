@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0b1a44;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0b1a44;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+    color: #1e90ff;
+}
+
+.searchicon img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+/* === Courses Section === */
+.courses {
+    padding: 60px 50px;
+    background-color: #0b1a44;
+}
+
+.courses h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.course {
+    margin-bottom: 60px;
+}
+
+.course-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.course h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.course p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.course a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course a:hover {
+    text-decoration: underline;
+}
+
+/* === Footer === */
+.footer {
+    background-color: #082c78;
+    padding: 40px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 60px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-columns div h4 {
+    margin-bottom: 10px;
+}
+
+.footer-columns div p a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-columns div p a:hover {
+    color: #1e90ff;
+}
